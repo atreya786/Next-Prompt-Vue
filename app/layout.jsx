@@ -3,8 +3,11 @@ import Provider from "@components/Provider";
 import "@styles/globals.css";
 
 export const metadata = {
-  title: "PromptVue",
-  description: "CRUD blog posts",
+  name: "Prompt Vue",
+  description:
+    "A platform for sharing and exploring creative prompts, thoughts, and ideas through interactive blogs and discussions.",
+  version: "1.0.0",
+  author: "Atreya Chandan",
 };
 
 const RootLayout = ({ children }) => {
